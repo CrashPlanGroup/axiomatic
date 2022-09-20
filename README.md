@@ -1,13 +1,13 @@
 # Axiomatic
 
-[![Go Report Card](https://goreportcard.com/badge/github.com/code42/axiomatic)](https://goreportcard.com/report/github.com/code42/axiomatic)
-![Build](https://github.com/code42/axiomatic/workflows/Go/badge.svg?branch=master)
-[![CodeCov](https://codecov.io/gh/code42/axiomatic/branch/master/graph/badge.svg)](https://codecov.io/gh/code42/axiomatic)
+[![Go Report Card](https://goreportcard.com/badge/github.com/crashplangroup/axiomatic)](https://goreportcard.com/report/github.com/crashplangroup/axiomatic)
+![Build](https://github.com/crashplangroup/axiomatic/workflows/lint-golang/badge.svg?branch=master)
+[![CodeCov](https://codecov.io/gh/crashplangroup/axiomatic/branch/master/graph/badge.svg)](https://codecov.io/gh/crashplangroup/axiomatic)
 [![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
 
 ## Summary
 
-Axiomatic is a GitHub webhook handler that launches [dir2consul](https://github.com/code42/dir2consul) as a Nomad batch job.
+Axiomatic is a GitHub webhook handler that launches [dir2consul](https://github.com/crashplangroup/dir2consul) as a Nomad batch job.
 
 ## Configuration
 

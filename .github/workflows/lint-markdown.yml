@@ -1,15 +1,10 @@
 name: Lint Markdown
 
 on:
-  push:
+  pull_request:
+    branches:
+      - master
 
 jobs:
   lint-markdown:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Check out Source Code
-        uses: actions/checkout@v3
-      - name: markdownlint-cli
-        uses: nosborn/github-action-markdown-cli@v3.1.0
-        with:
-          files: .
+    uses: crashplangroup/github-workflow-library/.github/workflows/lint-markdown.yml@master
