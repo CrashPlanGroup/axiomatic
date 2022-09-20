@@ -1,0 +1,12 @@
+name: Lint Golang
+
+on:
+  pull_request:
+    branches:
+      - master
+
+jobs:
+  lint-golang:
+    uses: crashplangroup/github-workflow-library/.github/workflows/lint-golang.yml@master
+    with:
+      codecov: true
