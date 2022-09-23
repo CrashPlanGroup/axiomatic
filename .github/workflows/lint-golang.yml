@@ -10,3 +10,4 @@ jobs:
     uses: crashplangroup/github-workflow-library/.github/workflows/lint-golang.yml@master
     with:
       codecov: true
+      usePublicRunner: true
