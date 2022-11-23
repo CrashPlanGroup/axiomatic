@@ -8,3 +8,5 @@ on:
 jobs:
   lint-dockerfile:
     uses: crashplangroup/github-workflow-library/.github/workflows/lint-dockerfile.yml@master
+    with:
+      usePublicRunner: true
