@@ -46,7 +46,7 @@ jobs:
           password: ${{ secrets.DockerHubToken }}
 
       - name: Build and Push
-        uses: docker/build-push-action@v3
+        uses: docker/build-push-action@v4
         with:
           labels: ${{ steps.meta.outputs.labels }}
           push: true
