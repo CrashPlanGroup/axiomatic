@@ -7,4 +7,4 @@ on:
 
 jobs:
   validate-codeowners:
-    uses: crashplangroup/github-workflow-library/.github/workflows/validate-codeowners.yml@master
+    uses: crashplangroup/github-workflow-library/.github/workflows/validate-codeowners.yml@main

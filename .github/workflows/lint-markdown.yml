@@ -3,8 +3,8 @@ name: Lint Markdown
 on:
   pull_request:
     branches:
-      - master
+      - main
 
 jobs:
   lint-markdown:
-    uses: crashplangroup/github-workflow-library/.github/workflows/lint-markdown.yml@master
+    uses: crashplangroup/github-workflow-library/.github/workflows/lint-markdown.yml@main

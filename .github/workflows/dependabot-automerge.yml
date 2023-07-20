@@ -8,6 +8,6 @@ permissions:
 
 jobs:
   dependabot:
-    uses: crashplangroup/github-workflow-library/.github/workflows/dependabot-automerge.yml@master
+    uses: crashplangroup/github-workflow-library/.github/workflows/dependabot-automerge.yml@main
     secrets:
       gh_token: ${{ secrets.GITHUB_TOKEN }}
