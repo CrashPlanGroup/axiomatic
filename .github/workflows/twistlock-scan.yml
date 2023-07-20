@@ -3,14 +3,14 @@ name: Twistlock Scan
 on:
   pull_request:
     branches:
-      - 'master'
+      - 'main'
     paths-ignore:
       - '.github/**'
       - 'docs/**'
 
 jobs:
   twistlock:
-    uses: crashplangroup/github-workflow-library/.github/workflows/twistlock-scan.yml@master
+    uses: crashplangroup/github-workflow-library/.github/workflows/twistlock-scan.yml@main
     with:
       docker_image_name: crashplangroup/axiomatic
     secrets:

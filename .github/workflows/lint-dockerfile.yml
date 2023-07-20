@@ -3,8 +3,8 @@ name: Lint Dockerfile
 on:
   pull_request:
     branches:
-      - master
+      - main
 
 jobs:
   lint-dockerfile:
-    uses: crashplangroup/github-workflow-library/.github/workflows/lint-dockerfile.yml@master
+    uses: crashplangroup/github-workflow-library/.github/workflows/lint-dockerfile.yml@main
